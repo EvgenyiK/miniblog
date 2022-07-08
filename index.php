@@ -1,8 +1,9 @@
 <body>
 <div class="form">
-
-
-
+    <?php
+    if (isset($_GET['new']))
+        echo 'ACCOUNT CREATED SUCCESSFULLY';
+    ?>
     <div class="heading">
         <i class="material-icons">account_box</i>
         <h4 class="modal-title">Login to Your Account</h4>
